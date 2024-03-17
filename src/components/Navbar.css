@@ -1,0 +1,33 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #2D2E32
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #FFFFFF;
+    height: 5vh;
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navbar-nav{
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    gap: 50px;
+    list-style: none;
+}
+
+.nav-item:hover{
+    color: lightskyblue;
+    cursor: pointer;
+    transition: 0.1s ease-in;
+}
