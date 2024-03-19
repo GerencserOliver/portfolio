@@ -43,6 +43,17 @@ body{
     width: 70px;
 }
 
+.logos li{
+    list-style-type: none;
+    display: inline;
+    margin: 0 10px;
+}
+
+.skills{
+    height: 65px;
+    width: 140px;
+}
+
 @media (max-width: 1200px){
     .hero{
         width: 80%;
@@ -71,6 +82,10 @@ body{
     .wave{
         height: 50px;
         width: 50px;
+    }
+
+    .logos li{
+        margin: 0 5px;
     }
 }
 
@@ -101,6 +116,17 @@ body{
 
     .contact{
         order: 3;
+    }
+
+    .logos li {
+        display: flex;
+        padding-bottom: 20px;
+        justify-content: center;
+    }
+
+    .logos{
+        order: 5;
+
     }
 
 }
