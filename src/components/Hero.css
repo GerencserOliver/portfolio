@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #2D2E32
+}
+
+.hero{
+    display: grid;
+    width: 50%;
+    margin: 0 auto;
+    grid-template-columns: 3fr 1fr;
+    padding: 20vh;
+}
+
+.hero-text h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.hero-text p{
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.contact{
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+}
+
+.profile{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+.wave{
+    height: 70px;
+    width: 70px;
+}
+
+@media (max-width: 1200px){
+    .hero{
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px){
+    .hero{
+        grid-template-columns: 1fr;
+        padding: 10vh;
+    }
+
+    .hero-text h1{
+        font-size: 30px;
+    }
+
+    .hero-text p{
+        font-size: 15px;
+    }
+
+    .profile{
+        height: 300px;
+        width: 300px;
+    }
+
+    .wave{
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media (max-width: 500px){
+    .hero{
+        padding: 5vh;
+    }
+    
+    .profile{
+        height: 250px;
+        width: 250px;
+        order: 1;
+    }
+
+    .hero-text{
+        order: 2;
+    }
+
+    .hero-text h1{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .hero-text p{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .contact{
+        order: 3;
+    }
+
+}
