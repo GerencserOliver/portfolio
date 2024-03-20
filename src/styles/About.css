@@ -2,7 +2,6 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #FFFFFF;
     color: #2D2E32;
 }
 
@@ -20,25 +19,25 @@ body {
 }
 
 .about-text h1 {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     color: lightskyblue;
 }
 
 .about-text h2 {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
 }
 
 .about-text p {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     color: #767676;
 }
 
 .about-img img {
     width: 250px;
-    height: 250px;
+    height: 270px;
     border-radius: 15px;
     margin: 0 auto;
     display: block;
@@ -53,8 +52,8 @@ body {
 
 @media (min-width: 1025px) {
     .about-img img {
-        width: 300px;
-        height: 300px;
+        width: 400px;
+        height: 400px;
     }
 }
 
