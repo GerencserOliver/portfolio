@@ -71,7 +71,7 @@ nav{
         position: fixed;
         flex-direction: column;
         top: 50px;
-        left: -100%;
+        left: -120%;
         height: 100vh;
         background-color: #ffffff;
         width: 100%;

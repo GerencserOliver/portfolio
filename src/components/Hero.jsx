@@ -1,14 +1,12 @@
 import React from 'react';
-import githubImage from './github.png';
-import linkedinImage from './linkedin.png';
-import profilePicture from './profile-picture.png'
-import wavePicture from './wave.png'
-import skillOne from './html-css.png'
-import skillTwo from './js-ts.png'
-import skillThree from './react.png'
-import './Hero.css';
-
-import './Hero.css';
+import githubImage from '../images/github.png';
+import linkedinImage from '../images/linkedin.png';
+import profilePicture from '../images/profile-picture.png'
+import wavePicture from '../images/wave.png'
+import skillOne from '../images/html-css.png'
+import skillTwo from '../images/js-ts.png'
+import skillThree from '../images/react.png'
+import '../styles/Hero.css';
 
 function Hero() {
     return (
@@ -17,12 +15,14 @@ function Hero() {
                 <div className='hero-text'>
                     <h1>Front-End React Developer <img src={wavePicture} alt="" className='wave'/></h1>
                     <p>Hi, my name is Oliver. A passionate Front-end React Developer based in Győr, Hungary.&#128205;</p>
-                    <a href="https://hu.linkedin.com/">
-                        <img src={linkedinImage} alt="linkedin" className='contact'/>
-                    </a>
-                    <a href="https://github.com/GerencserOliver">
-                        <img src={githubImage} alt="github" className='contact'/>
-                    </a>
+                    <div className='contact'>
+                        <a href="https://hu.linkedin.com/">
+                            <img src={linkedinImage} alt="linkedin" className='contact-logo'/>
+                        </a>
+                        <a href="https://github.com/GerencserOliver">
+                            <img src={githubImage} alt="github" className='contact-logo'/>
+                        </a>
+                    </div>
                 </div>
                 <div>
                     <img src={profilePicture} alt="myself" className='profile'/>
