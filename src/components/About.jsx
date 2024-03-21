@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import UIUX from "../images/ui_ux.png";
-import '../styles/About.css';
+import '../styles/About.scss';
 
 function About() {
 
