@@ -6,7 +6,7 @@ import wavePicture from '../images/wave.png'
 import skillOne from '../images/html-css.png'
 import skillTwo from '../images/js-ts.png'
 import skillThree from '../images/react.png'
-import '../styles/Hero.css';
+import '../styles/Hero.scss';
 
 function Hero() {
     return (
