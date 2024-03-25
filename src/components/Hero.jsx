@@ -15,12 +15,12 @@ function Hero() {
                 <div className='hero-text'>
                     <h1>Front-End React Developer <img src={wavePicture} alt="" className='wave'/></h1>
                     <p>Hi, my name is Oliver. A passionate Front-end React Developer based in Győr, Hungary.&#128205;</p>
-                    <div className='contact'>
+                    <div className='hero-icons'>
                         <a href="https://hu.linkedin.com/">
-                            <img src={linkedinImage} alt="linkedin" className='contact-logo'/>
+                            <img src={linkedinImage} alt="linkedin" className='hero-logo'/>
                         </a>
                         <a href="https://github.com/GerencserOliver">
-                            <img src={githubImage} alt="github" className='contact-logo'/>
+                            <img src={githubImage} alt="github" className='hero-logo'/>
                         </a>
                     </div>
                 </div>

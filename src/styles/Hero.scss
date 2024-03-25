@@ -23,7 +23,7 @@ body{
         font-weight: 600;
     }
 
-    .contact-logo{
+    .hero-logo{
         height: 40px;
         width: 40px;
         padding: 5px;
@@ -89,7 +89,7 @@ body{
             }
         }
 
-        .contact{
+        .icons{
             order: 3;
         }
 
@@ -102,10 +102,6 @@ body{
             display: flex;
             justify-content: center;
             order: 5;
-            
-            li{
-                margin: 0 5px;
-            }
         }
 
     }
@@ -137,7 +133,7 @@ body{
         }
     }
 
-    .contact{
+    .hero-icons{
         order: 3;
     }
 
@@ -193,7 +189,7 @@ body{
         }
     }
 
-    .contact{
+    .hero-icons{
         display: flex;
         justify-content: center;   
     }
