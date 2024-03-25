@@ -12,7 +12,7 @@ function Hero() {
     return (
         <>
             <div className='wrapper'>
-                <section className='hero'>
+                <section className='hero' id='hero'>
                     <div className='hero-text'>
                         <h1>Front-End React Developer <img src={wavePicture} alt="" className='wave'/></h1>
                         <p>Hi, my name is Oliver. A passionate Front-end React Developer based in Győr, Hungary.&#128205;</p>

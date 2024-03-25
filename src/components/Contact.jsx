@@ -6,7 +6,7 @@ import mail from '../images/mail.png';
 function Contact() {
     return (
         <>
-            <section className="contact">
+            <section className="contact" id="contact">
                 <div className="contact-text">
                     <h1>Contact</h1>
                     <h2>Let's get in touch! 👇</h2>

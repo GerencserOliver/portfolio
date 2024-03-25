@@ -21,10 +21,18 @@ function Navbar() {
             <i className={`fas ${isOpen ? 'fa-times' : 'fa-bars'}`}></i>
           </div>
           <ul className={`navbar-nav ${isOpen ? 'open' : ''}`}>
-            <li className='nav-item'>Home</li>
-            <li className='nav-item'>About</li>
-            <li className='nav-item'>Projects</li>
-            <li className='nav-item'>Contact</li>
+            <li className='nav-item'>
+              <a href="#hero">Home</a>
+            </li>
+            <li className='nav-item'>
+              <a href="#about">About</a>
+            </li>
+            <li className='nav-item'>
+              <a href="#projects">Projects</a>
+            </li>
+            <li className='nav-item'>
+              <a href="#contact">Contact</a>
+            </li>
           </ul>
         </nav>
       </header>

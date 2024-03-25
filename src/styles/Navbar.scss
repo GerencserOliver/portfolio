@@ -5,6 +5,9 @@ body{
     color: #2D2E32
 }
 
+html{scroll-behavior:smooth}
+
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -28,7 +31,12 @@ nav{
         list-style: none;
     }
 
-    .nav-item:hover{
+    a{
+        text-decoration: none;
+        color: #2D2E32;
+    }
+    
+    .nav-item a:hover{
         color: lightskyblue;
         cursor: pointer;
         transition: 0.1s ease-in;

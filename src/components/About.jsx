@@ -6,7 +6,7 @@ function About() {
 
     return (
         <>
-            <section className='about'>
+            <section className='about' id="about">
                 <div className='about-img'>
                     <img src={UIUX} alt="" />
                 </div>
