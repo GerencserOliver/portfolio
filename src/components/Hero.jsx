@@ -11,28 +11,30 @@ import '../styles/Hero.scss';
 function Hero() {
     return (
         <>
-            <section className='hero'>
-                <div className='hero-text'>
-                    <h1>Front-End React Developer <img src={wavePicture} alt="" className='wave'/></h1>
-                    <p>Hi, my name is Oliver. A passionate Front-end React Developer based in Győr, Hungary.&#128205;</p>
-                    <div className='hero-icons'>
-                        <a href="https://hu.linkedin.com/">
-                            <img src={linkedinImage} alt="linkedin" className='hero-logo'/>
-                        </a>
-                        <a href="https://github.com/GerencserOliver">
-                            <img src={githubImage} alt="github" className='hero-logo'/>
-                        </a>
+            <div className='wrapper'>
+                <section className='hero'>
+                    <div className='hero-text'>
+                        <h1>Front-End React Developer <img src={wavePicture} alt="" className='wave'/></h1>
+                        <p>Hi, my name is Oliver. A passionate Front-end React Developer based in Győr, Hungary.&#128205;</p>
+                        <div className='hero-icons'>
+                            <a href="https://hu.linkedin.com/">
+                                <img src={linkedinImage} alt="linkedin" className='hero-logo'/>
+                            </a>
+                            <a href="https://github.com/GerencserOliver">
+                                <img src={githubImage} alt="github" className='hero-logo'/>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <img src={profilePicture} alt="myself" className='profile'/>
-                </div>
-                <div className='logos'>
-                    <li><img src={skillOne} alt="" className='skills'/></li>
-                    <li><img src={skillTwo} alt="" className='skills'/></li>
-                    <li><img src={skillThree} alt="" className='skills'/></li>
-                </div>
-            </section>
+                    <div>
+                        <img src={profilePicture} alt="myself" className='profile'/>
+                    </div>
+                    <div className='logos'>
+                        <li><img src={skillOne} alt="" className='skills'/></li>
+                        <li><img src={skillTwo} alt="" className='skills'/></li>
+                        <li><img src={skillThree} alt="" className='skills'/></li>
+                    </div>
+                </section>
+            </div>
         </>
     );
 }
