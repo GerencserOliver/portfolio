@@ -1,17 +1,30 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import '../styles/Navbar.scss';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  
+  const node = useRef();
+
+  const handleClickOutside = e => {
+    if (node.current.contains(e.target)) {
+      return;
+    }
+    setIsOpen(false);
+  };
+
+  useEffect(() => {
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
   return (
-    <>
-      {/*Desktop*/}
+    <div ref={node}>
       <header>
         <nav className={`navbar ${isOpen ? 'open' : ''}`}>
           <div className='logo'>
@@ -36,7 +49,7 @@ function Navbar() {
           </ul>
         </nav>
       </header>
-    </>
+    </div>
   );
 }
 

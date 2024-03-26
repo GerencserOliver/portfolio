@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    color: #2D2E32
+    color: #2D2E32;
 }
 
 html{scroll-behavior:smooth}
@@ -56,45 +56,48 @@ nav{
 
 @media (max-width: 768px) {
 
-    .menu-toggle{
-        position: absolute;
-        top: 0;
-        right: 0;
-        cursor: pointer;
-        display: flex;
-
-        i{
-            font-size: 30px;
-            color: #2D2E32;
+    nav{
+        
+        .menu-toggle{
+            display: block;
+            font-size: 25px;
             cursor: pointer;
-            position: relative;
-            top: 30px;
-            right: 30px;
         }
-    }
 
-    .navbar-nav {
-        position: fixed;
-        flex-direction: column;
-        top: 50px;
-        left: -120%;
-        height: 100vh;
-        background-color: #ffffff;
-        width: 100%;
-        transition: left 0.3s ease;
-        justify-content: center;
+        .navbar-nav{
+            height: 200vh;
+            flex-direction: column;
+            position: fixed;
+            right: 0;
+            width: 100%;
+            background-color: #FFFFFF;
+            box-shadow: 0 5px 5px -2px rgba(0, 0, 0, 0.1);
+            left: -120%;
+            transition: left 0.3s ease;
+            &.open{
+                top: -2vh;
+                overflow: hidden;
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                left: -30%;
+                height: 100vh;
+            }
+        }
 
-        &.open{
-            left: 0;
+        .navbar-nav.active{
             display: flex;
         }
-    }
 
-    .navbar.open .logo{
-        display: none;
-    }
+        a{
+            text-decoration: none;
+            color: #2D2E32;
+        }
 
-    .navbar.open li{
-        font-size: 30px;
+        .nav-item a:hover{
+            color: lightskyblue;
+            cursor: pointer;
+            transition: 0.1s ease-in;
+        }
     }
 }
