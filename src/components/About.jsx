@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import UIUX from "../images/ui_ux.png";
+import laptop from "../images/laptop.png";
 import '../styles/About.scss';
 
 function About() {
@@ -8,7 +8,7 @@ function About() {
         <>
             <section className='about' id="about">
                 <div className='about-img'>
-                    <img src={UIUX} alt="" />
+                    <img src={laptop} alt="" />
                 </div>
                 <div className="about-text">
                     <h1>About me</h1>
