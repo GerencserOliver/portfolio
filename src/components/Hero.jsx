@@ -6,6 +6,7 @@ import wavePicture from '../images/wave.png'
 import skillOne from '../images/html-css.png'
 import skillTwo from '../images/js-ts.png'
 import skillThree from '../images/react.png'
+import skillFour from '../images/tail-sass.png'
 import '../styles/Hero.scss';
 
 function Hero() {
@@ -32,6 +33,7 @@ function Hero() {
                         <li><img src={skillOne} alt="" className='skills'/></li>
                         <li><img src={skillTwo} alt="" className='skills'/></li>
                         <li><img src={skillThree} alt="" className='skills'/></li>
+                        <li><img src={skillFour} alt="" className='skills'/></li>
                     </div>
                 </section>
             </div>
