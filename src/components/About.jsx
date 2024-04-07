@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import laptop from "../images/laptop.png";
 import '../styles/About.scss';
 

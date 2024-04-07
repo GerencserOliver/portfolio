@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import '../styles/Contact.scss';
 import location from '../images/location.png';
 import mail from '../images/mail.png';
