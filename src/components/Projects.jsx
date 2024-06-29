@@ -1,4 +1,5 @@
 import React from "react";
+import GymProject from "../images/gym-project.jpg";
 import '../styles/Projects.scss';
 
 function Projects(){
@@ -6,7 +7,9 @@ function Projects(){
         <div className="wrapper" id="projects">
             <div className="projects">
                 <h1>Portfolio</h1>
-                <h2>Projects coming soon...</h2>
+                <div className="project">
+                    <img src={GymProject} alt="Project 1" className="projectImg"/>
+                </div>
             </div>
         </div>
     );
