@@ -1,5 +1,6 @@
 import React from "react";
 import laptop from "../images/laptop.png";
+import Decoration2 from "../images/png2.png";
 import '../styles/About.scss';
 
 function About() {
@@ -7,6 +8,7 @@ function About() {
     return (
         <>
             <section className='about' id="about">
+                <img src={Decoration2} alt="" className="decor2"/>
                 <div className='about-img'>
                     <img src={laptop} alt="" />
                 </div>
