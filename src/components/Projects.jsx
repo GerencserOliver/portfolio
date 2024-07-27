@@ -8,7 +8,9 @@ function Projects(){
             <div className="projects">
                 <h1>Portfolio</h1>
                 <div className="project">
-                    <img src={GymProject} alt="Project 1" className="projectImg"/>
+                    <a href="https://gym-website-gamma-five.vercel.app/" target="_blank" rel="noopener noreferrer">
+                        <img src={GymProject} alt="Project 1" className="projectImg"/>
+                    </a>
                 </div>
             </div>
         </div>
